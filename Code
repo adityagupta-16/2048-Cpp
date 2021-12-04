@@ -254,7 +254,8 @@ int main()
     	if(ch==80) downmove(a);
     	if(ch==75) leftmove(a);
     	if(ch==77) rightmove(a);
-		if(ch==27) break;
+		if(ch==27) 
+		break;
 		
 		if(!check(tmp,a))
 			addblock(a);
